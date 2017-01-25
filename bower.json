@@ -1,0 +1,6 @@
+{
+  "name": "purescript-halogen-startapp",
+  "dependencies": {
+    "purescript-halogen": "git://github.com/slamdata/purescript-halogen.git#master"
+  }
+}

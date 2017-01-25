@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "psa \"bower_components/purescript-*/src/**/*.purs\" \"src/**/*.purs\" --censor-lib",
+    "pretest": "psa \"bower_components/purescript-*/src/**/*.purs\" \"src/**/*.purs\" \"test/src/**/*.purs\" --censor-lib",
+    "test": "psc-bundle \"output/**/*.js\" -m Main --main Main > test/app.js"
+  }
+}
